@@ -18,7 +18,8 @@ for (let i = 1; i < excel_range_content_length; i++) {
         debtor_search.push(
             {
                 "contact" : excel_range_content[i-2]["A"],
-                "date" : excel_range_content[i]["E"],
+                "datePatent" : excel_range_content[i-1]["E"],
+                "dateCheck" : excel_range_content[i]["E"],
                 "days": excel_range_content[i]["F"],
                 "subdivision": excel_range_content[i]["G"]
             }
@@ -29,7 +30,8 @@ for (let i = 1; i < excel_range_content_length; i++) {
             negative_search.push (
                 {
                     "contact" : excel_range_content[i-2]["A"],
-                    "date" : excel_range_content[i]["E"],
+                    "datePatent" : excel_range_content[i-1]["E"],
+                    "dateCheck" : excel_range_content[i]["E"],
                     "days": excel_range_content[i]["F"],
                     "subdivision": excel_range_content[i]["G"]
                 }
@@ -39,7 +41,7 @@ for (let i = 1; i < excel_range_content_length; i++) {
             negative_search.push (
                 {
                     "contact" : excel_range_content[i-1]["A"],
-                    "date" : excel_range_content[i]["E"],
+                    "dateCheck" : excel_range_content[i]["E"],
                     "days": excel_range_content[i]["F"],
                     "subdivision": excel_range_content[i]["G"]
                 }
@@ -47,11 +49,12 @@ for (let i = 1; i < excel_range_content_length; i++) {
         }
 
     }
-    else if ( excel_range_content[i]["A"] === "чек" &&  d1 === d2 && excel_range_content[i]["F"] > 0 )  {
+    else if ( excel_range_content[i]["A"] === "чек" &&  d1 === d2 && excel_range_content[i]["F"] < 60 && excel_range_content[i]["F"] > 0 )  {
         test_search.push (
             {
                 "contact" : excel_range_content[i-2]["A"],
-                "date" : excel_range_content[i]["E"],
+                "datePatent" : excel_range_content[i-1]["E"],
+                "dateCheck" : excel_range_content[i]["E"],
                 "days": excel_range_content[i]["F"],
                 "subdivision": excel_range_content[i]["G"]
             }
@@ -63,4 +66,4 @@ debtor_list = debtor_search;
 negative_list = negative_search;
 test_list = test_search;
 
-console.log(debtor_list);
+console.log(test_list);

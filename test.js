@@ -301,335 +301,335 @@ let negative_list = [
         days: -13,
         subdivision: 'Чабыкин ИП'
     },
-        {
-            contact: 'Азизов Ахлиддин Валиевич',
-            dateCheck: '01.01.2021',
-            days: -12,
-            subdivision: 'Окна Форте'
-        },
-        {
-            contact: 'Азимов Махаммаджон Исмоилджон Угли',
-            dateCheck: '30.10.2020',
-            days: -75,
-            subdivision: 'Трайнет СПБ'
-        },
-        {
-            contact: 'Азимов Орифджон Одилджон Угли',
-            datePatent: '08.11.2020',
-            dateCheck: '08.10.2020',
-            days: -97,
-            subdivision: 'Трайнет СПБ'
-        },
-        {
-            contact: 'Алиджонов Хаётбек Кахрамон Угли',
-            dateCheck: '07.12.2020',
-            days: -37,
-            subdivision: 'Окна Форте'
-        },
-        {
-            contact: 'Атаджанов Гайрат Аминович',
-            dateCheck: '04.01.2021',
-            days: -9,
-            subdivision: 'ВентКондиционерСервис'
-        },
-        {
-            contact: 'Ахмедов Иброхимжон Солиевич',
-            dateCheck: '23.10.2020',
-            days: -82,
-            subdivision: 'Подольск'
-        },
-        {
-            contact: 'Ачилов Илхом Маруфович',
-            dateCheck: '12.01.2021',
-            days: -1,
-            subdivision: 'ЛД-ПРИНТ'
-        },
-        {
-            contact: 'Бахриев Собирджон Сохибович',
-            dateCheck: '07.12.2020',
-            days: -37,
-            subdivision: 'Трайнет Ольгино'
-        },
-        {
-            contact: 'Бобоев Сафармад Авалбоевич',
-            dateCheck: '06.01.2021',
-            days: -7,
-            subdivision: 'Фильтровальные материалы'
-        },
-        {
-            contact: 'Гулов Джалолидин Рахмоналиевич',
-            dateCheck: '02.01.2021',
-            days: -11,
-            subdivision: 'Окна Форте'
-        },
-        {
-            contact: 'Джумакулова Азиза Хамро Кизи',
-            dateCheck: '26.11.2020',
-            days: -48,
-            subdivision: 'Фрегат'
-        },
-        {
-            contact: 'Джумамуратов Джавланбек Алимбаевич',
-            dateCheck: '03.01.2021',
-            days: -10,
-            subdivision: 'Окна Форте'
-        },
-        {
-            contact: 'Джуматов Мансур Махмудович',
-            dateCheck: '14.12.2020',
-            days: -30,
-            subdivision: 'Трайнет СПБ'
-        },
-        {
-            contact: 'Ибрагимов Комилджон Шухратджонович',
-            dateCheck: '28.10.2020',
-            days: -77,
-            subdivision: 'Трайнет СПБ'
-        },
-        {
-            contact: 'Икромов Давлатджон Хайрулло Угли',
-            dateCheck: '22.11.2020',
-            days: -52,
-            subdivision: 'Трайнет СПБ'
-        },
-        {
-            contact: 'Каримов Сарварбек Саттор Угли',
-            dateCheck: '13.11.2020',
-            days: -61,
-            subdivision: 'Трайнет СПБ'
-        },
-        {
-            contact: 'Кенджаева Шоира Сапарбоевна',
-            dateCheck: '27.12.2020',
-            days: -17,
-            subdivision: 'Окна Форте'
-        },
-        {
-            contact: 'Косимджонов Абдухошим Азамджон Угли',
-            dateCheck: '09.12.2020',
-            days: -35,
-            subdivision: 'Трайнет СПБ'
-        },
-        {
-            contact: 'Мардонов Муминджон Зокирович',
-            dateCheck: '08.01.2021',
-            days: -5,
-            subdivision: 'Эдельвейс'
-        },
-        {
-            contact: 'Маткаримова Саида Кушназаровна',
-            dateCheck: '07.01.2021',
-            days: -6,
-            subdivision: 'ЛД-ПРИНТ'
-        },
-        {
-            contact: 'Махмадалиев Мухаммадали Ятимович',
-            dateCheck: '07.01.2021',
-            days: -6,
-            subdivision: 'Полячков ИП'
-        },
-        {
-            contact: 'Махматов Гофир Бекмурод Угли',
-            dateCheck: '13.12.2020',
-            days: -31,
-            subdivision: 'ВентКондиционерСервис'
-        },
-        {
-            contact: 'Махмудов Неъматилло Рахматилло Угли',
-            datePatent: '17.12.2020',
-            dateCheck: '17.11.2020',
-            days: -57,
-            subdivision: 'Подольск'
-        },
-        {
-            contact: 'Мирзарахимов Музаффар Бегмурадович',
-            dateCheck: '04.01.2021',
-            days: -9,
-            subdivision: 'ЛД-ПРИНТ'
-        },
-        {
-            contact: 'Мусинов Фазлиддин Фахриддин Угли',
-            dateCheck: '16.10.2020',
-            days: -89,
-            subdivision: 'Трайнет СПБ'
-        },
-        {
-            contact: 'Мусурмонов Зухриддин Зафарович',
-            dateCheck: '06.01.2021',
-            days: -7,
-            subdivision: 'СоюзХимИнвест'
-        },
-        {
-            contact: 'Негматова Гуландон Анваровна',
-            dateCheck: '06.01.2021',
-            days: -7,
-            subdivision: 'Фрегат'
-        },
-        {
-            contact: 'Нематов Фаррухджон Шарифджонович',
-            dateCheck: '03.01.2021',
-            days: -10,
-            subdivision: 'РЖЕВКА-ХЛЕБ'
-        },
-        {
-            contact: 'Расулов Мухаммадсодик Махматджонович',
-            dateCheck: '09.01.2021',
-            days: -4,
-            subdivision: 'Трайнет СПБ'
-        },
-        {
-            contact: 'Саидкамолов Шерзод Абдикахорович',
-            dateCheck: '21.11.2020',
-            days: -53,
-            subdivision: 'Трайнет СПБ'
-        },
-        {
-            contact: 'Сатторов Наим Валиевич',
-            dateCheck: '31.12.2020',
-            days: -13,
-            subdivision: 'Авиатор-2'
-        },
-        {
-            contact: 'Собитов Отабек Алижон Угли',
-            dateCheck: '01.11.2020',
-            days: -73,
-            subdivision: 'Подольск'
-        },
-        {
-            contact: 'Солиева Нозимахон Хамидулло Кизи',
-            dateCheck: '12.01.2021',
-            days: -1,
-            subdivision: 'СоюзХимИнвест'
-        },
-        {
-            contact: 'Сохибов Муродил Мухаммадали Угли',
-            dateCheck: '27.12.2020',
-            days: -17,
-            subdivision: 'Окна Форте'
-        },
-        {
-            contact: 'Толибов Абдукахор Абдуразокович',
-            dateCheck: '02.01.2021',
-            days: -11,
-            subdivision: 'Окна Форте'
-        },
-        {
-            contact: 'Тураев Ботир Суюнович',
-            dateCheck: '05.01.2021',
-            days: -8,
-            subdivision: 'РЖЕВКА-ХЛЕБ'
-        },
-        {
-            contact: 'Тухтамишев Бехзод Шавкатович',
-            datePatent: '17.12.2020',
-            dateCheck: '17.12.2020',
-            days: -27,
-            subdivision: 'Оборудование для торговли'
-        },
-        {
-            contact: 'Умурзаков Хасанбой Арапжон Угли',
-            dateCheck: '15.11.2020',
-            days: -59,
-            subdivision: 'Трайнет СПБ'
-        },
-        {
-            contact: 'Уринбаев Азизбек Кадамбой Угли',
-            dateCheck: '09.12.2020',
-            days: -35,
-            subdivision: 'Окна Форте'
-        },
-        {
-            contact: 'Хабибуллаев Отабек Кудратулло Угли',
-            dateCheck: '07.10.2020',
-            days: -98,
-            subdivision: 'Трайнет СПБ'
-        },
-        {
-            contact: 'Хакимов Сохибжон Соибжон Угли',
-            dateCheck: '23.10.2020',
-            days: -82,
-            subdivision: 'Подольск'
-        },
-        {
-            contact: 'Халилова Дилдорахон Баходировна',
-            dateCheck: '04.01.2021',
-            days: -9,
-            subdivision: 'ЛВР АС'
-        },
-        {
-            contact: 'Халматджанов Дилмуратджон',
-            dateCheck: '25.11.2020',
-            days: -49,
-            subdivision: 'Трайнет СПБ'
-        },
-        {
-            contact: 'Хамидов Умид Хусанбоевич',
-            dateCheck: '26.11.2020',
-            days: -48,
-            subdivision: 'Трайнет СПБ'
-        },
-        {
-            contact: 'Хасанбоев Амирулло Омонжон Угли',
-            datePatent: '13.01.2021',
-            dateCheck: '13.11.2020',
-            days: -61,
-            subdivision: 'Подольск'
-        },
-        {
-            contact: 'Хасанов Махмуд Лолаевич',
-            dateCheck: '12.01.2021',
-            days: -1,
-            subdivision: 'Окна Форте'
-        },
-        {
-            contact: 'Хатамов Сардорбек Азимджон Угли',
-            dateCheck: '06.10.2020',
-            days: -99,
-            subdivision: 'Трайнет СПБ'
-        },
-        {
-            contact: 'Худоёров Сардор Рустам Угли',
-            dateCheck: '19.11.2020',
-            days: -55,
-            subdivision: 'Окна Форте'
-        },
-        {
-            contact: 'Шаймуродов Ислом Чориёр Угли',
-            dateCheck: '09.11.2020',
-            days: -65,
-            subdivision: 'Окна Форте'
-        },
-        {
-            contact: 'Эркаева Мухиба Мухторовна',
-            dateCheck: '20.10.2020',
-            days: -85,
-            subdivision: 'РЖЕВКА-ХЛЕБ'
-        },
-        {
-            contact: 'Эркаева Шакаржон Шоназар Кизи',
-            dateCheck: '18.11.2020',
-            days: -56,
-            subdivision: 'Окна Форте'
-        },
-        {
-            contact: 'Эшкурбонов Хуррам Норбоевич',
-            dateCheck: '02.01.2021',
-            days: -11,
-            subdivision: 'Окна Форте'
-        },
-        {
-            contact: 'Эшметов Руслон Куролбоевич',
-            dateCheck: '08.01.2021',
-            days: -5,
-            subdivision: 'Окна Форте'
-        },
-        {
-            contact: 'Эшмуродова Шахноза Бахтиёр Кизи',
-            dateCheck: '02.01.2021',
-            days: -11,
-            subdivision: 'СоюзХимИнвест'
-        }
-    ]
+    {
+        contact: 'Азизов Ахлиддин Валиевич',
+        dateCheck: '01.01.2021',
+        days: -12,
+        subdivision: 'Окна Форте'
+    },
+    {
+        contact: 'Азимов Махаммаджон Исмоилджон Угли',
+        dateCheck: '30.10.2020',
+        days: -75,
+        subdivision: 'Трайнет СПБ'
+    },
+    {
+        contact: 'Азимов Орифджон Одилджон Угли',
+        datePatent: '08.11.2020',
+        dateCheck: '08.10.2020',
+        days: -97,
+        subdivision: 'Трайнет СПБ'
+    },
+    {
+        contact: 'Алиджонов Хаётбек Кахрамон Угли',
+        dateCheck: '07.12.2020',
+        days: -37,
+        subdivision: 'Окна Форте'
+    },
+    {
+        contact: 'Атаджанов Гайрат Аминович',
+        dateCheck: '04.01.2021',
+        days: -9,
+        subdivision: 'ВентКондиционерСервис'
+    },
+    {
+        contact: 'Ахмедов Иброхимжон Солиевич',
+        dateCheck: '23.10.2020',
+        days: -82,
+        subdivision: 'Подольск'
+    },
+    {
+        contact: 'Ачилов Илхом Маруфович',
+        dateCheck: '12.01.2021',
+        days: -1,
+        subdivision: 'ЛД-ПРИНТ'
+    },
+    {
+        contact: 'Бахриев Собирджон Сохибович',
+        dateCheck: '07.12.2020',
+        days: -37,
+        subdivision: 'Трайнет Ольгино'
+    },
+    {
+        contact: 'Бобоев Сафармад Авалбоевич',
+        dateCheck: '06.01.2021',
+        days: -7,
+        subdivision: 'Фильтровальные материалы'
+    },
+    {
+        contact: 'Гулов Джалолидин Рахмоналиевич',
+        dateCheck: '02.01.2021',
+        days: -11,
+        subdivision: 'Окна Форте'
+    },
+    {
+        contact: 'Джумакулова Азиза Хамро Кизи',
+        dateCheck: '26.11.2020',
+        days: -48,
+        subdivision: 'Фрегат'
+    },
+    {
+        contact: 'Джумамуратов Джавланбек Алимбаевич',
+        dateCheck: '03.01.2021',
+        days: -10,
+        subdivision: 'Окна Форте'
+    },
+    {
+        contact: 'Джуматов Мансур Махмудович',
+        dateCheck: '14.12.2020',
+        days: -30,
+        subdivision: 'Трайнет СПБ'
+    },
+    {
+        contact: 'Ибрагимов Комилджон Шухратджонович',
+        dateCheck: '28.10.2020',
+        days: -77,
+        subdivision: 'Трайнет СПБ'
+    },
+    {
+        contact: 'Икромов Давлатджон Хайрулло Угли',
+        dateCheck: '22.11.2020',
+        days: -52,
+        subdivision: 'Трайнет СПБ'
+    },
+    {
+        contact: 'Каримов Сарварбек Саттор Угли',
+        dateCheck: '13.11.2020',
+        days: -61,
+        subdivision: 'Трайнет СПБ'
+    },
+    {
+        contact: 'Кенджаева Шоира Сапарбоевна',
+        dateCheck: '27.12.2020',
+        days: -17,
+        subdivision: 'Окна Форте'
+    },
+    {
+        contact: 'Косимджонов Абдухошим Азамджон Угли',
+        dateCheck: '09.12.2020',
+        days: -35,
+        subdivision: 'Трайнет СПБ'
+    },
+    {
+        contact: 'Мардонов Муминджон Зокирович',
+        dateCheck: '08.01.2021',
+        days: -5,
+        subdivision: 'Эдельвейс'
+    },
+    {
+        contact: 'Маткаримова Саида Кушназаровна',
+        dateCheck: '07.01.2021',
+        days: -6,
+        subdivision: 'ЛД-ПРИНТ'
+    },
+    {
+        contact: 'Махмадалиев Мухаммадали Ятимович',
+        dateCheck: '07.01.2021',
+        days: -6,
+        subdivision: 'Полячков ИП'
+    },
+    {
+        contact: 'Махматов Гофир Бекмурод Угли',
+        dateCheck: '13.12.2020',
+        days: -31,
+        subdivision: 'ВентКондиционерСервис'
+    },
+    {
+        contact: 'Махмудов Неъматилло Рахматилло Угли',
+        datePatent: '17.12.2020',
+        dateCheck: '17.11.2020',
+        days: -57,
+        subdivision: 'Подольск'
+    },
+    {
+        contact: 'Мирзарахимов Музаффар Бегмурадович',
+        dateCheck: '04.01.2021',
+        days: -9,
+        subdivision: 'ЛД-ПРИНТ'
+    },
+    {
+        contact: 'Мусинов Фазлиддин Фахриддин Угли',
+        dateCheck: '16.10.2020',
+        days: -89,
+        subdivision: 'Трайнет СПБ'
+    },
+    {
+        contact: 'Мусурмонов Зухриддин Зафарович',
+        dateCheck: '06.01.2021',
+        days: -7,
+        subdivision: 'СоюзХимИнвест'
+    },
+    {
+        contact: 'Негматова Гуландон Анваровна',
+        dateCheck: '06.01.2021',
+        days: -7,
+        subdivision: 'Фрегат'
+    },
+    {
+        contact: 'Нематов Фаррухджон Шарифджонович',
+        dateCheck: '03.01.2021',
+        days: -10,
+        subdivision: 'РЖЕВКА-ХЛЕБ'
+    },
+    {
+        contact: 'Расулов Мухаммадсодик Махматджонович',
+        dateCheck: '09.01.2021',
+        days: -4,
+        subdivision: 'Трайнет СПБ'
+    },
+    {
+        contact: 'Саидкамолов Шерзод Абдикахорович',
+        dateCheck: '21.11.2020',
+        days: -53,
+        subdivision: 'Трайнет СПБ'
+    },
+    {
+        contact: 'Сатторов Наим Валиевич',
+        dateCheck: '31.12.2020',
+        days: -13,
+        subdivision: 'Авиатор-2'
+    },
+    {
+        contact: 'Собитов Отабек Алижон Угли',
+        dateCheck: '01.11.2020',
+        days: -73,
+        subdivision: 'Подольск'
+    },
+    {
+        contact: 'Солиева Нозимахон Хамидулло Кизи',
+        dateCheck: '12.01.2021',
+        days: -1,
+        subdivision: 'СоюзХимИнвест'
+    },
+    {
+        contact: 'Сохибов Муродил Мухаммадали Угли',
+        dateCheck: '27.12.2020',
+        days: -17,
+        subdivision: 'Окна Форте'
+    },
+    {
+        contact: 'Толибов Абдукахор Абдуразокович',
+        dateCheck: '02.01.2021',
+        days: -11,
+        subdivision: 'Окна Форте'
+    },
+    {
+        contact: 'Тураев Ботир Суюнович',
+        dateCheck: '05.01.2021',
+        days: -8,
+        subdivision: 'РЖЕВКА-ХЛЕБ'
+    },
+    {
+        contact: 'Тухтамишев Бехзод Шавкатович',
+        datePatent: '17.12.2020',
+        dateCheck: '17.12.2020',
+        days: -27,
+        subdivision: 'Оборудование для торговли'
+    },
+    {
+        contact: 'Умурзаков Хасанбой Арапжон Угли',
+        dateCheck: '15.11.2020',
+        days: -59,
+        subdivision: 'Трайнет СПБ'
+    },
+    {
+        contact: 'Уринбаев Азизбек Кадамбой Угли',
+        dateCheck: '09.12.2020',
+        days: -35,
+        subdivision: 'Окна Форте'
+    },
+    {
+        contact: 'Хабибуллаев Отабек Кудратулло Угли',
+        dateCheck: '07.10.2020',
+        days: -98,
+        subdivision: 'Трайнет СПБ'
+    },
+    {
+        contact: 'Хакимов Сохибжон Соибжон Угли',
+        dateCheck: '23.10.2020',
+        days: -82,
+        subdivision: 'Подольск'
+    },
+    {
+        contact: 'Халилова Дилдорахон Баходировна',
+        dateCheck: '04.01.2021',
+        days: -9,
+        subdivision: 'ЛВР АС'
+    },
+    {
+        contact: 'Халматджанов Дилмуратджон',
+        dateCheck: '25.11.2020',
+        days: -49,
+        subdivision: 'Трайнет СПБ'
+    },
+    {
+        contact: 'Хамидов Умид Хусанбоевич',
+        dateCheck: '26.11.2020',
+        days: -48,
+        subdivision: 'Трайнет СПБ'
+    },
+    {
+        contact: 'Хасанбоев Амирулло Омонжон Угли',
+        datePatent: '13.01.2021',
+        dateCheck: '13.11.2020',
+        days: -61,
+        subdivision: 'Подольск'
+    },
+    {
+        contact: 'Хасанов Махмуд Лолаевич',
+        dateCheck: '12.01.2021',
+        days: -1,
+        subdivision: 'Окна Форте'
+    },
+    {
+        contact: 'Хатамов Сардорбек Азимджон Угли',
+        dateCheck: '06.10.2020',
+        days: -99,
+        subdivision: 'Трайнет СПБ'
+    },
+    {
+        contact: 'Худоёров Сардор Рустам Угли',
+        dateCheck: '19.11.2020',
+        days: -55,
+        subdivision: 'Окна Форте'
+    },
+    {
+        contact: 'Шаймуродов Ислом Чориёр Угли',
+        dateCheck: '09.11.2020',
+        days: -65,
+        subdivision: 'Окна Форте'
+    },
+    {
+        contact: 'Эркаева Мухиба Мухторовна',
+        dateCheck: '20.10.2020',
+        days: -85,
+        subdivision: 'РЖЕВКА-ХЛЕБ'
+    },
+    {
+        contact: 'Эркаева Шакаржон Шоназар Кизи',
+        dateCheck: '18.11.2020',
+        days: -56,
+        subdivision: 'Окна Форте'
+    },
+    {
+        contact: 'Эшкурбонов Хуррам Норбоевич',
+        dateCheck: '02.01.2021',
+        days: -11,
+        subdivision: 'Окна Форте'
+    },
+    {
+        contact: 'Эшметов Руслон Куролбоевич',
+        dateCheck: '08.01.2021',
+        days: -5,
+        subdivision: 'Окна Форте'
+    },
+    {
+        contact: 'Эшмуродова Шахноза Бахтиёр Кизи',
+        dateCheck: '02.01.2021',
+        days: -11,
+        subdivision: 'СоюзХимИнвест'
+    }
+]
 let google_sheets_value = [
     ["Арома-Клининг", "hr@aroma-cleaning.ru"],
     ["ПерсоналСервис", "hr@aroma-cleaning.ru"],
@@ -815,12 +815,15 @@ google_sheets_values_email.forEach(e => {
     const cur = grouped.get(e[0]);
     const neg = negativegroup.get(e[0]);
     const test = testGroup.get(e[0]);
-    if (!cur || !neg || !test ) {
+    const cur_content = [];
+    const neg_content = [];
+    const test_content = [];
+    if (!cur) {
         //   console.log(`По почте ${e[0]} никого нет <br />`)
         return
     } else  {
         email_address.push(`${e}`);
-        email_content.push(
+        cur_content.push(
             `
     <div style="
     font-size: 15px;
@@ -843,7 +846,8 @@ google_sheets_values_email.forEach(e => {
     ">
     <tr style="
     border: 1px solid #000000">
-    <td>ФИО сотрудника</td>
+    <td style="
+        text-align: left">ФИО сотрудника</td>
     <td> Патент действителен до</td>
 <td>Патент оплачен до</td>
 <td>Количество дней<div>до истечения оплаты</td>
@@ -851,18 +855,24 @@ google_sheets_values_email.forEach(e => {
     ${cur.map(c=>`
     <tr style="
     border: 1px solid #000000">
-        <td>
+        <td style="
+        text-align: left">
         ${c.contact}
         </td>
         <td>${c.datePatent}</td>
         <td>${c.dateCheck}</td>
         <td>${c.days}</td>
-    </tr>`)}
+    </tr>`).join("")}
     </table>
-    <p style="
+           `);
+        if (neg) {
+            neg_content.push(
+                `
+                <p style="
     color: red;
     font-size: 17px;
-    ">Списох работников, у которых чеки были просрочены:</p>
+    ">Список работников, у которых были просрочены чеки:
+    </p>
      <table style="
     text-align: center;
     border-collapse: collapse;
@@ -871,24 +881,32 @@ google_sheets_values_email.forEach(e => {
     ">
     <tr style="
     border: 1px solid #000000">
-    <td>ФИО сотрудника</td>
+    <td style="
+        text-align: left">ФИО сотрудника</td>
 <td>Патент оплачен до</td>
 <td>Количество дней<div>с момента просрочки</td>
 </tr>
      ${neg.map(c=>`
     <tr style="
     border: 1px solid #000000">
-        <td>
+        <td style="
+        text-align: left">
         ${c.contact}
         </td>
         <td>${c.dateCheck}</td>
         <td>${c.days}</td>
-    </tr>`)}
+    </tr>`).join("")}
     </table>
-    <p style="
+                `
+            )
+        }
+        if (test) {
+            test_content.push(
+                `
+                <p style="
     color: red;
     font-size: 17px;
-    ">Списох работников, которым необходимо переоформить патент</p>
+    ">Список работников, которым необходимо переоформить патент</p>
      <table style="
     text-align: center;
     border-collapse: collapse;
@@ -897,23 +915,28 @@ google_sheets_values_email.forEach(e => {
     ">
     <tr style="
     border: 1px solid #000000">
-    <td>ФИО сотрудника</td>
-<td>Патент оплачен до</td>
+    <td style="
+        text-align: left">ФИО сотрудника</td>
+<td>Патент действителен до</td>
 <td>Количество дней<div>до окончания патента</td>
 </tr>
       ${test.map(c=>`
     <tr style="
     border: 1px solid #000000">
-        <td>
+        <td style="
+        text-align: left">
         ${c.contact}
         </td>
         <td>${c.dateCheck}</td>
         <td>${c.days}</td>
-    </tr>`)}
+    </tr>`).join("")}
     </table>
-           `)
+                `
+            )
+        }
     }
+    const email_list = cur_content + neg_content + test_content;
+    email_content.push(email_list)
 });
-
-console.log(email_content)
-
+console.log(email_content);
+document.write(email_content);
