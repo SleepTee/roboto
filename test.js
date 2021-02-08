@@ -1,299 +1,4 @@
-let debtor_list = [
-    {
-        contact: 'Аббосов Сухроб Тулкинович',
-        datePatent: '23.12.2021',
-        dateCheck: '23.01.2021',
-        days: 10,
-        subdivision: 'Дегтярь ИП'
-    },
-    {
-        contact: 'Абдуева Рубаба Танрыверди Кызы',
-        datePatent: '20.09.2021',
-        dateCheck: '20.01.2021',
-        days: 7,
-        subdivision: 'ЛД-ПРИНТ'
-    },
-    {
-        contact: 'Абдукаюмов Хасанбой Бахтиёрович',
-        datePatent: '22.12.2021',
-        dateCheck: '22.01.2021',
-        days: 9,
-        subdivision: 'Трайнет СПБ'
-    },
-    {
-        contact: 'Абдуллаева Санобар Отаджановна',
-        datePatent: '14.12.2021',
-        dateCheck: '14.01.2021',
-        days: 1,
-        subdivision: 'ЛВР СК'
-    },
-    {
-        contact: 'Аллабердиев Аброр Анвар Угли',
-        datePatent: '17.12.2021',
-        dateCheck: '17.01.2021',
-        days: 4,
-        subdivision: 'Окна Форте'
-    },
-    {
-        contact: 'Бабаджанова Дилфуза Сабировна',
-        datePatent: '25.11.2021',
-        dateCheck: '25.01.2021',
-        days: 12,
-        subdivision: 'ЛВР АС'
-    },
-    {
-        contact: 'Бидюк Николай Васильевич',
-        datePatent: '14.07.2021',
-        dateCheck: '14.01.2021',
-        days: 1,
-        subdivision: 'НПФ Электрик'
-    },
-    {
-        contact: 'Джабборов Шохрух Собирджон Угли',
-        datePatent: '25.08.2021',
-        dateCheck: '25.01.2021',
-        days: 12,
-        subdivision: 'Финфлекс'
-    },
-    {
-        contact: 'Джумаев Юсуфджон Нуритдинович',
-        datePatent: '25.02.2021',
-        dateCheck: '25.01.2021',
-        days: 12,
-        subdivision: 'Окна Форте'
-    },
-    {
-        contact: 'Додожонов Шариф Акрамжонович',
-        datePatent: '25.09.2021',
-        dateCheck: '25.01.2021',
-        days: 12,
-        subdivision: 'ЛД-ПРИНТ'
-    },
-    {
-        contact: 'Иброхимов Салохиддин Камолиддин Угли',
-        datePatent: '14.10.2021',
-        dateCheck: '14.01.2021',
-        days: 1,
-        subdivision: 'Трайнет СПБ'
-    },
-    {
-        contact: 'Исматов Дилшод Ибодуллоевич',
-        datePatent: '26.05.2021',
-        dateCheck: '26.01.2021',
-        days: 13,
-        subdivision: 'Окна Форте'
-    },
-    {
-        contact: 'Исматов Шахзод Отабек Угли',
-        datePatent: '23.12.2021',
-        dateCheck: '23.01.2021',
-        days: 10,
-        subdivision: 'Финфлекс'
-    },
-    {
-        contact: 'Кабулова Зарифа Абдуджапаровна',
-        datePatent: '18.11.2021',
-        dateCheck: '18.01.2021',
-        days: 5,
-        subdivision: 'Браво'
-    },
-    {
-        contact: 'Касимов Ислом Касимович',
-        datePatent: '23.09.2021',
-        dateCheck: '23.01.2021',
-        days: 10,
-        subdivision: 'Кошелев ИП'
-    },
-    {
-        contact: 'Мамадова Гулсара Розиковна',
-        datePatent: '14.12.2021',
-        dateCheck: '14.01.2021',
-        days: 1,
-        subdivision: 'ЛД-ПРИНТ'
-    },
-    {
-        contact: 'Мамаюсупов Мамуржон Собир Угли',
-        datePatent: '23.12.2021',
-        dateCheck: '23.01.2021',
-        days: 10,
-        subdivision: 'Финфлекс'
-    },
-    {
-        contact: 'Мардонов Зокир Доруевич',
-        datePatent: '19.07.2021',
-        dateCheck: '19.01.2021',
-        days: 6,
-        subdivision: 'Эдельвейс'
-    },
-    {
-        contact: 'Мухамадиев Умиджон Рахматулло Угли',
-        datePatent: '23.12.2021',
-        dateCheck: '23.01.2021',
-        days: 10,
-        subdivision: 'Финфлекс'
-    },
-    {
-        contact: 'Собирова Замира',
-        datePatent: '24.11.2021',
-        dateCheck: '24.01.2021',
-        days: 11,
-        subdivision: 'ЛД-ПРИНТ'
-    },
-    {
-        contact: 'Сотволдиев Омаджон Журабек Угли',
-        datePatent: '26.08.2021',
-        dateCheck: '26.01.2021',
-        days: 13,
-        subdivision: 'Лайф'
-    },
-    {
-        contact: 'Тохиров Нурбек Олимжон Угли',
-        datePatent: '25.09.2021',
-        dateCheck: '25.01.2021',
-        days: 12,
-        subdivision: 'ЛВР АС'
-    },
-    {
-        contact: 'Тухтабаев Абдумутали Турсунович',
-        datePatent: '27.12.2021',
-        dateCheck: '27.01.2021',
-        days: 14,
-        subdivision: 'Тепловое Оборудование'
-    },
-    {
-        contact: 'Умбаров Жамшед Аширматович',
-        datePatent: '15.07.2021',
-        dateCheck: '15.01.2021',
-        days: 2,
-        subdivision: 'Оллила'
-    },
-    {
-        contact: 'Усмонова Фарохат Усаровна',
-        datePatent: '16.09.2021',
-        dateCheck: '16.01.2021',
-        days: 3,
-        subdivision: 'СоюзХимИнвест'
-    },
-    {
-        contact: 'Хамракулов Илёсбек Исмоилович',
-        datePatent: '26.08.2021',
-        dateCheck: '26.01.2021',
-        days: 13,
-        subdivision: 'Эдельвейс'
-    },
-    {
-        contact: 'Хасанов Хусанбой Бахтиёр Угли',
-        datePatent: '26.02.2021',
-        dateCheck: '26.01.2021',
-        days: 13,
-        subdivision: 'РЖЕВКА-ХЛЕБ'
-    },
-    {
-        contact: 'Хомидов Шерзод Рашидович',
-        datePatent: '19.04.2021',
-        dateCheck: '19.01.2021',
-        days: 6,
-        subdivision: 'Бетокон'
-    },
-    {
-        contact: 'Худайбердиева Татьяна Анатольевна',
-        datePatent: '21.06.2021',
-        dateCheck: '21.01.2021',
-        days: 8,
-        subdivision: 'СоюзХимИнвест'
-    },
-    {
-        contact: 'Хуррамов Самандар Фахриддин Угли',
-        datePatent: '18.11.2021',
-        dateCheck: '18.01.2021',
-        days: 5,
-        subdivision: 'Фрегат'
-    },
-    {
-        contact: 'Шукуров Мирджалол Хосил Угли',
-        datePatent: '19.02.2021',
-        dateCheck: '19.01.2021',
-        days: 6,
-        subdivision: 'Рускодом Мебель'
-    },
-    {
-        contact: 'Юлдошева Санобар Абдумуталимовна',
-        datePatent: '19.08.2021',
-        dateCheck: '19.01.2021',
-        days: 6,
-        subdivision: 'ЛВР СК'
-    },
-    {
-        contact: 'Якубжонов Акмалжон Касимджонович',
-        datePatent: '16.12.2021',
-        dateCheck: '16.01.2021',
-        days: 3,
-        subdivision: 'ЛД-ПРИНТ'
-    },
-    {
-        contact: 'Джураева Мафтуна Хакимбоевна',
-        datePatent: '20.04.2021',
-        dateCheck: '20.01.2021',
-        days: 7,
-        subdivision: 'Арома-Клининг'
-    },
-    {
-        contact: 'Джураева Хилола Анваровна',
-        datePatent: '22.04.2021',
-        dateCheck: '22.01.2021',
-        days: 9,
-        subdivision: 'Арома-Клининг'
-    },
-    {
-        contact: 'Зияев Уктам Эркинович',
-        datePatent: '23.08.2021',
-        dateCheck: '23.01.2021',
-        days: 10,
-        subdivision: 'Сапига ИП'
-    },
-    {
-        contact: 'Зияев Фирдавс Уктамович',
-        datePatent: '17.06.2021',
-        dateCheck: '17.01.2021',
-        days: 4,
-        subdivision: 'Сапига ИП'
-    },
-    {
-        contact: 'Зухурова Ганджина Тоджидиновна',
-        datePatent: '15.10.2021',
-        dateCheck: '15.01.2021',
-        days: 2,
-        subdivision: 'Оллила'
-    },
-    {
-        contact: 'Исматова Шохиста Шухратовна',
-        datePatent: '27.08.2021',
-        dateCheck: '27.01.2021',
-        days: 14,
-        subdivision: 'Арома-Клининг'
-    },
-    {
-        contact: 'Каххорова Мукаддам Бахтиёровна',
-        datePatent: '23.10.2021',
-        dateCheck: '23.01.2021',
-        days: 10,
-        subdivision: 'Арома-Клининг'
-    },
-    {
-        contact: 'Курамбаев Хайдарбек Умарджон Угли',
-        datePatent: '21.06.2021',
-        dateCheck: '21.01.2021',
-        days: 8,
-        subdivision: 'ПерсоналСервис'
-    },
-    {
-        contact: 'Курбонов Давронбек Фрунзаевич',
-        datePatent: '14.02.2021',
-        dateCheck: '14.01.2021',
-        days: 1,
-        subdivision: 'ПерсоналСервис'
-    }
-]
+let debtor_list = [{"contact":"Абдулазизов Акбаршох Алабердиевич","datePatent":"10.03.2021","dateCheck":"10.02.2021","days":13,"subdivision":"Оллила"},{"contact":"Абдулакимов Фаррух Абдулаким Угли","datePatent":"01.10.2021","dateCheck":"01.02.2021","days":4,"subdivision":"Окна Форте"},{"contact":"Атамуродов Шухрат Равшанович","datePatent":"01.04.2021","dateCheck":"01.02.2021","days":4,"subdivision":"Финфлекс"},{"contact":"Бабаназаров Фарход Халбаевич","datePatent":"01.09.2021","dateCheck":"02.02.2021","days":5,"subdivision":"Подольск"},{"contact":"Баяков Махмуджон Каландарович","datePatent":"10.11.2021","dateCheck":"10.02.2021","days":13,"subdivision":"ЛД-ПРИНТ"},{"contact":"Бобоев Сафармад Авалбоевич","datePatent":"06.04.2021","dateCheck":"06.02.2021","days":9,"subdivision":"Фильтровальные материалы"},{"contact":"Бобомуродов Хамидулло Сайпиллоевич","datePatent":"05.10.2021","dateCheck":"05.02.2021","days":8,"subdivision":"Камышовая 38"},{"contact":"Болтабоев Муроджон Икромджон Угли","datePatent":"06.04.2021","dateCheck":"06.02.2021","days":9,"subdivision":"Эдельвейс"},{"contact":"Гуламов Хайриддин Тагаевич","datePatent":"03.04.2021","dateCheck":"03.02.2021","days":6,"subdivision":"Окна Форте"},{"contact":"Гулов Джалолидин Рахмоналиевич","datePatent":"02.11.2021","dateCheck":"02.02.2021","days":5,"subdivision":"Окна Форте"},{"contact":"Додожонов Ахтамджон Акрамжонович","datePatent":"08.03.2021","dateCheck":"08.02.2021","days":11,"subdivision":"ЛД-ПРИНТ"},{"contact":"Журабоев Салохиддин Сирожиддин Угли","datePatent":"08.09.2021","dateCheck":"08.02.2021","days":11,"subdivision":"Подольск"},{"contact":"Иброхимов Элдор Бахром Угли","datePatent":"04.10.2021","dateCheck":"04.02.2021","days":7,"subdivision":"Фрегат"},{"contact":"Каримова Турсунджон Исроиловна","datePatent":"05.10.2021","dateCheck":"05.02.2021","days":8,"subdivision":"ЛВР АС"},{"contact":"Мавлянова Дилнавоз Мехридиновна","datePatent":"02.09.2021","dateCheck":"02.02.2021","days":5,"subdivision":"ЛВР АС"},{"contact":"Мамаджонов Дониёр Махаматалиевич","datePatent":"30.11.2021","dateCheck":"31.01.2021","days":3,"subdivision":"Арч Групп"},{"contact":"Мардонов Муминджон Зокирович","datePatent":"08.10.2021","dateCheck":"08.02.2021","days":11,"subdivision":"Эдельвейс"},{"contact":"Маткаримова Саида Кушназаровна","datePatent":"07.12.2021","dateCheck":"07.02.2021","days":10,"subdivision":"ЛД-ПРИНТ"},{"contact":"Мирзарахимов Музаффар Бегмурадович","datePatent":"04.05.2021","dateCheck":"04.02.2021","days":7,"subdivision":"ЛД-ПРИНТ"},{"contact":"Муродов Сорбон Юсуфович","datePatent":"04.05.2021","dateCheck":"04.02.2021","days":7,"subdivision":"ЛД-ПРИНТ"},{"contact":"Наджимова Гулбахор Одиловна","datePatent":"06.09.2021","dateCheck":"06.02.2021","days":9,"subdivision":"Финфлекс"},{"contact":"Раджабова Зарнигор Шавкатовна","datePatent":"04.10.2021","dateCheck":"04.02.2021","days":7,"subdivision":"Фрегат"},{"contact":"Расулов Махмадюсуф Нормуротович","datePatent":"30.03.2021","dateCheck":"30.01.2021","days":2,"subdivision":"Окна Форте"},{"contact":"Ризаев Анвар Нормахматович","datePatent":"05.08.2021","dateCheck":"05.02.2021","days":8,"subdivision":"Финфлекс"},{"contact":"Рузиев Алишер Зиёдуллоевич","datePatent":"31.03.2021","dateCheck":"31.01.2021","days":3,"subdivision":"Чабыкин ИП"},{"contact":"Сададинова Муборак Шаназаровна","datePatent":"06.06.2021","dateCheck":"06.02.2021","days":9,"subdivision":"ЛВР АС"},{"contact":"Саттарова Мадина Бахронкуловна","datePatent":"07.09.2021","dateCheck":"07.02.2021","days":10,"subdivision":"ЛД-ПРИНТ"},{"contact":"Собирджонов Зиёвиддин Содикджон Угли","datePatent":"07.04.2021","dateCheck":"07.02.2021","days":10,"subdivision":"Эдельвейс"},{"contact":"Собиров Каримжон Рашиджон Угли","datePatent":"11.11.2021","dateCheck":"11.02.2021","days":14,"subdivision":"Подольск"},{"contact":"Толибов Абдукахор Абдуразокович","datePatent":"02.12.2021","dateCheck":"02.02.2021","days":5,"subdivision":"Окна Форте"},{"contact":"Туйчиев Бехзодбек Насибджон Угли","datePatent":"07.04.2021","dateCheck":"07.02.2021","days":10,"subdivision":"Эдельвейс"},{"contact":"Тургунов Дилшод Баиржонович","datePatent":"11.08.2021","dateCheck":"11.02.2021","days":14,"subdivision":"Мистер ЛиС"},{"contact":"Тухтасинов Абдусаттор Бахтиёржон Угли","datePatent":"10.08.2021","dateCheck":"10.02.2021","days":13,"subdivision":"Подольск"},{"contact":"Худайкулов Бектош Шухратович","datePatent":"11.05.2021","dateCheck":"11.02.2021","days":14,"subdivision":"Дегтярь ИП"},{"contact":"Эшметов Руслон Куролбоевич","datePatent":"08.07.2021","dateCheck":"08.02.2021","days":11,"subdivision":"Окна Форте"},{"contact":"Юнусов Хабибуло Эгамбердиевич","datePatent":"30.07.2021","dateCheck":"31.01.2021","days":3,"subdivision":"Кошелев ИП"},{"contact":"Яров Икромджон Гафарович","datePatent":"07.09.2021","dateCheck":"07.02.2021","days":10,"subdivision":"Бетокон"},{"contact":"Атоева Заррина Аъллоевна","datePatent":"11.04.2021","dateCheck":"11.02.2021","days":14,"subdivision":"ПерсоналСервис"},{"contact":"Джуманиязова Салтанат Отаджановна","datePatent":"09.04.2021","dateCheck":"09.02.2021","days":12,"subdivision":"ПерсоналСервис"},{"contact":"Махмадуллоев Асадулло Махмадуллоевич","datePatent":"10.03.2021","dateCheck":"10.02.2021","days":13,"subdivision":"ПерсоналСервис"},{"contact":"Тагаев Ташмухаммад Ташмуратович","datePatent":"09.11.2021","dateCheck":"09.02.2021","days":12,"subdivision":"Оллила"}];
 let negative_list = [
     {
         contact: 'Абдухалилов Сардор Равшан',
@@ -630,54 +335,7 @@ let negative_list = [
         subdivision: 'СоюзХимИнвест'
     }
 ]
-let google_sheets_value = [
-    ["Арома-Клининг", "hr@aroma-cleaning.ru"],
-    ["ПерсоналСервис", "hr@aroma-cleaning.ru"],
-    ["Сапига ИП", "hr@aroma-cleaning.ru"],
-    ["Шпунюк ИП", "hr@aroma-cleaning.ru"],
-    ["Оллила", "vitaly.k@guestworkers.ru"],
-    ["Бочок ИП", "arsentevao@forte.su"],
-    ["Кизимов ИП", "hr@aroma-cleaning.ru"],
-    ["Трайнет СПБ", "komiljon.ibragimov@mail.ru"],
-    ["Подольск", "nikolasha-3@mail.ru"],
-    ["НПФ Электрик", "babelov@mail.ru"],
-    ["Центргаз", "otdkadr@skand.ru"],
-    ["ИП Шипулин", "minyaeva.viktoriya@yandex.ru"],
-    ["Оллила", "vitaly.k@guestworkers.ru"],
-    ["ИП Киселёв", "minyaeva.viktoriya@yandex.ru"],
-    ["ИП Кошелев", "minyaeva.viktoriya@yandex.ru"],
-    ["ИП Дегтярь", "minyaeva.viktoriya@yandex.ru"],
-    ["ИП Полячков", "zhenchik@yandex.ru"],
-    ["ИП Чабыкин", "minyaeva.viktoriya@yandex.ru"],
-    ["ПЕТРОМЕДЛАБ", "komotdekapital@gmail.com"],
-    ["НПФ Анлес", "ask@anles.ru"],
-    ["АрчГрупп", "archgroup24@gmail.com"],
-    ["Тепловое оборудование", "smirnova.o@guestworkers.ru"],
-    ["Авиатор-2", "helenspb@gmail.com"],
-    ["ЛД-ПРИНТ", "smokrikova@ldprint.ru"],
-    ["СоюзХимИнвест", "hr@aroma-cleaning.ru"],
-    ["Эдельвейс", "ilyosbek.xamrakulov@mail.ru"],
-    ["ВентКондиционерСервис", "ventkonservice@mail.ru"],
-    ["Финфлекс", "elena@finfleks.ru"],
-    ["Оборудование для торговли", "odt@odt.ru"],
-    ["ПромДетальМаш", "evd01@yandex.ru"],
-    ["ПТ ГРУПП", "kudrina@trak-on.ru"],
-    ["Бетокон", "shkelev@bk.ru"],
-    ["Браво", "lucysarc@mail.ru"],
-    ["ЛВР СК", "ep2@lvr-service.ru"],
-    ["Окна Форте", "arsentevao@forte.su"],
-    ["ЛВР АС", "ep2@lvr-service.ru"],
-    ["Вентура", "kudrina@trak-on.ru"],
-    ["Мистер ЛиС", "lisbrewbuh@mail.ru, lelikpo@yandex.ru"],
-    ["Трайнет Ольгино", "avk0570@yandex.ru"],
-    ["Фрегат", "19731703@mail.ru"],
-    ["Рускодом Мебель", "ruskodom@mail.ru"],
-    ["Лайф", "ilyosbek.xamrakulov@mail.ru"],
-    ["РЖЕВКА-ХЛЕБ", "smirnova.o@guestworkers.ru"],
-    ["Камышовая 38", "helenspb@gmail.com"],
-    ["Ультра-Сервис", "komiljon.ibragimov@mail.ru"],
-    ["Фильтровальные материалы", "doroshencoo@mail.ru"]
-]
+let google_sheets_value = [["Арома-Клининг","hr@aroma-cleaning.ru"],["ПерсоналСервис","hr@aroma-cleaning.ru"],["Сапига ИП","hr@aroma-cleaning.ru"],["Шпунюк ИП","hr@aroma-cleaning.ru"],["Оллила","vitaly.k@guestworkers.ru"],["Бочок ИП","arsentevao@forte.su"],["Кизимов ИП","hr@aroma-cleaning.ru"],["Трайнет СПБ","komiljon.ibragimov@mail.ru"],["Подольск","nikolasha-3@mail.ru"],["НПФ Электрик","babelov@mail.ru"],["Центргаз","otdkadr@skand.ru"],["Шипулин ИП","minyaeva.viktoriya@yandex.ru"],["Оллила","vitaly.k@guestworkers.ru"],["Киселёв ИП","minyaeva.viktoriya@yandex.ru"],["Кошелев ИП","minyaeva.viktoriya@yandex.ru"],["Дегтярь ИП","minyaeva.viktoriya@yandex.ru"],["ИП Полячков","zhenchik@yandex.ru"],["Чабыкин ИП","minyaeva.viktoriya@yandex.ru"],["ПЕТРОМЕДЛАБ","komotdekapital@gmail.com"],["НПФ Анлес","ask@anles.ru"],["АрчГрупп","archgroup24@gmail.com"],["Тепловое оборудование","smirnova.o@guestworkers.ru"],["Авиатор-2","helenspb@gmail.com"],["ЛД-ПРИНТ","smokrikova@ldprint.ru"],["СоюзХимИнвест","hr@aroma-cleaning.ru"],["Эдельвейс","ilyosbek.xamrakulov@mail.ru"],["ВентКондиционерСервис","ventkonservice@mail.ru"],["Финфлекс","elena@finfleks.ru"],["Оборудование для торговли","odt@odt.ru"],["ПромДетальМаш","evd01@yandex.ru"],["ПТ ГРУПП","kudrina@trak-on.ru"],["Бетокон","shkelev@bk.ru"],["Браво","lucysarc@mail.ru"],["ЛВР СК","ep2@lvr-service.ru"],["Окна Форте","arsentevao@forte.su"],["ЛВР АС","ep2@lvr-service.ru"],["Вентура","kudrina@trak-on.ru"],["Мистер ЛиС","lisbrewbuh@mail.ru, lelikpo@yandex.ru"],["Трайнет Ольгино","avk0570@yandex.ru"],["Фрегат","19731703@mail.ru"],["Рускодом Мебель","ruskodom@mail.ru"],["Лайф","ilyosbek.xamrakulov@mail.ru"],["РЖЕВКА-ХЛЕБ","smirnova.o@guestworkers.ru"],["Камышовая 38","helenspb@gmail.com"],["Ультра-Сервис","komiljon.ibragimov@mail.ru"],["Фильтровальные материалы","doroshencoo@mail.ru"]];
 let email_content = [];
 let email_address = [];
 let test_list = [
@@ -768,7 +426,8 @@ const google_sheets_values_email = [
     ["avk0570@yandex.ru"],
     ["19731703@mail.ru"],
     ["ruskodom@mail.ru"],
-    ["doroshencoo@mail.ru"]
+    ["doroshencoo@mail.ru"],
+    ["smokrikova@ldprint.ru"]
 ]
 
 const emailsMap = Object.fromEntries(google_sheets_value);
@@ -787,6 +446,7 @@ const c = test_list.map(x => ({
     ...x,
     email: emailsMap[x.subdivision]
 }));
+
 
 
 // Группировка
@@ -819,7 +479,7 @@ google_sheets_values_email.forEach(e => {
     const neg_content = [];
     const test_content = [];
     if (!cur) {
-        //   console.log(`По почте ${e[0]} никого нет <br />`)
+          console.log(`По почте ${e[0]} никого нет <br />`)
         return
     } else  {
         email_address.push(`${e}`);
@@ -829,7 +489,7 @@ google_sheets_values_email.forEach(e => {
     font-size: 15px;
     line-height: 1.5">
     <p style="
-    font-size: 18px">Доброе время суток!</p> <br>
+    font-size: 18px">Доброе время суток! ${e}</p> <br>
 
 Напоминаем нашим клиентам о необходимости актуализации информации по оплате патентов. <br>
 Все сотрудники, у кого не будет актуальных документов будут отстранены, а заработная плата не будет начисляться и выплачиваться. <br>
@@ -938,5 +598,6 @@ google_sheets_values_email.forEach(e => {
     const email_list = cur_content + neg_content + test_content;
     email_content.push(email_list)
 });
-console.log(email_content);
+
+console.log(email_address);
 document.write(email_content);
