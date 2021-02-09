@@ -88,6 +88,8 @@ is_passport = includes_passport_keywords ? !is_other_document : is_passport;
 is_patent = includes_patent_keywords ? !is_other_document : is_patent;
 is_migration_card = includes_migration_card_keywords ? !is_other_document : is_migration_card;
 
+console.log(is_passport)
+
 
 // DefinePassportType
 
