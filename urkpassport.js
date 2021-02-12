@@ -123,9 +123,9 @@ for (let i = 0; i < recognized_data_length; i++) {
  // RecognizeUKRPassport
 
 let date_of_birth = null,
-    place_of_birth = null,
+    date_of_issue = null,
     date_of_birth_data = [],
-    place_of_birth_data = [];
+    date_of_issue_data = [];
 
 for (let i = 0; i < recognized_data_length; i++) {
     if (/Отчество/i.test(recognized_data[i]['text'])) {
@@ -134,7 +134,7 @@ for (let i = 0; i < recognized_data_length; i++) {
     }
 
     if (/лица/i.test(recognized_data[i]['text'])) {
-        place_of_birth = recognized_data[i];
+        date_of_issue = recognized_data[i];
     }
 }
 
@@ -144,8 +144,17 @@ for (let i = 0; i < recognized_data_length; i++) {
         && recognized_data[i]['location']['y'] >= date_of_birth['location']['y'] - 5) {
         date_of_birth_data.push(recognized_data[i]['text']);
     }
+
+    if (date_of_issue
+        && recognized_data[i]['location']['y'] <= date_of_issue['location']['y'] + 20
+        && recognized_data[i]['location']['y'] >= date_of_issue['location']['y'] - 5) {
+        date_of_issue_data.push(recognized_data[i]['text']);
+    }
 }
 
 personal_data['passport']['date_of_birth'] = date_of_birth_data.length > 0 ? date_of_birth_data.slice(-1 * 4).join(" ") : " - ";
+personal_data['passport']['date_of_issue'] = date_of_issue_data.length > 0 ? date_of_issue_data.slice(-1 * 3).join(" ") : " - ";
 
-console.log(is_paper_passport)
+console.log(personal_data['passport']);
+
+
